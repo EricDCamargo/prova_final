@@ -1,0 +1,31 @@
+name: prova_final
+description: 'A new Flutter project.'
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+3
+  path: ^1.9.0
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/male_children_bg.png
+    - lib/assets/male_teen_bg.png
+    - lib/assets/male_adult_bg.png
+    - lib/assets/male_senior_bg.png
+    - lib/assets/female_children_bg.png
+    - lib/assets/female_teen_bg.jpeg
+    - lib/assets/female_adult_bg.jpeg
+    - lib/assets/female_senior_bg.jpeg
